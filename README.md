@@ -4,6 +4,8 @@ This is a very basic command that can be run when users connect to my computer t
 
 ![Screenshot of SSH Session](screenshot.png)
 
+This was written in my first ever live coding episode called [Writing an SSH Shell in Go - Part 1 - S1 E1](https://www.youtube.com/watch?v=s4ggSklJKic).
+
 Now that we have a command, we can use the ForceCommand option in the `/etc/ssh/sshd_config` file to configure sshd to execute this command for users.
 
 I was originally trying to write a linux shell (think bash, sh, or zsh) without any of the typical features of those shells. I don't know the exact mechanics but this command isn't a shell at all. It's just an executable that runs for users when they connect. It does get the job I was aiming for done, however.
