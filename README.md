@@ -4,7 +4,7 @@ This is a very basic command that can be run when users connect to my computer t
 
 ![Screenshot of SSH Session](screenshot.png)
 
-This was written in my first ever live coding episode called [Writing an SSH Shell in Go - Part 1 - S1 E1](https://www.youtube.com/watch?v=s4ggSklJKic).
+This was written in my first ever live coding episode called [Writing an SSH Shell in Go - Part 1 - S1 E1](https://youtu.be/s4ggSklJKic) and then I install it in my second episode [Writing an SSH Shell in Go - Part 2 - S1 E2](https://youtu.be/G968wOZGFGs).
 
 Now that we have a command, we can use the ForceCommand option in the `/etc/ssh/sshd_config` file to configure sshd to execute this command for users.
 
